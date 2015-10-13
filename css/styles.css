@@ -14,7 +14,22 @@ h1 {
   font-size: 1.2em;
 }
 
+<<<<<<< Updated upstream
 header img {
+=======
+header h1 {
+  font-size: 7vw;
+  margin-top: 6%;
+  margin-bottom: 4%;
+  text-align: center;
+}
+
+audio {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+>>>>>>> Stashed changes
   width: 100%;
   max-width: 525px;
   margin-bottom: 5%;
