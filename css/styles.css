@@ -1,5 +1,6 @@
 body {
   background: linear-gradient(45deg, #00FFFF, #4747D1);
+  cursor: crosshair;
 }
 
 html {
@@ -55,8 +56,9 @@ ol li {
   margin-bottom: 5%;
   padding: 2em;
   width: 80%;
-  max-width: 60em;
+  max-width: 45em;
   background-color: #fff;
+  border: 1px solid black;
 }
 
 .content {
@@ -93,39 +95,32 @@ ol li {
   font-size: 0.7em;
 }
 
-.main_program {
+.split {
   clear: left;
   overflow: hidden;
-  border: 1px solid black;
 }
 
-.main_image {
+.split_left {
   width: 46%;
   float: left;
   margin: 0;
   padding: 0;
 }
 
-.main_right {
+.split_right {
   width: 48%;
   float: left;
   padding: 10px 0 10px 25px;
-}
-
-div#selected {
-  border: 1px solid black;
 }
 
 div#selected ol li:first-child {
   display: none;
 }
 
-div#news {
- border: 1px solid black;
-}
-
-div#about {
- border: 1px solid black;
+.live-stream-icon {
+  width: 8em;
+  margin-left: 28%;
+  height: 8em; 
 }
 
 footer img {
@@ -138,11 +133,11 @@ footer {
 
 @media (max-width: 540px) {
 
-   .main_image {
+  .split_left {
     width: 100%;
   }
 
-  .main_right {
+  .split_right {
     width: 100%;
     padding: 15px 0 0 0;
   }

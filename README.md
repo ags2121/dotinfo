@@ -15,30 +15,13 @@ Create a space for people to discover and experience audio. Contributors work to
 
 `right key:` skip forward 15 seconds
 
-# Task list
-In prep for the new year...
-
-1. [ ] Create "Internet Radio" (live stream) module
-  - try with KCRW or BCR or WMBR streams
-2. [ ] Add visitor counter
-  - no tracking of personal data
-3. [ ] Update gradient background so it follows local time of day
-4. [ ] Design/implementation of Twitter bot @publicradio_bot (who is it for?)
-  - broadcasts homepage content plus @mentions? translates BBC headlines audio to text and broadcasts that?
-5. [ ] Create "donate" page to support one person/thing for 2016
-6. [ ] Think unusual ways for listeners to interact with the site...
-  - chat room/comments section? upvote/downvote system?
-
-# Contributors
-A handful of producers and programmers in and around public radio at the moment. Looking for: co-publisher and anyone with a good sound or software idea who wants to help.
-
 # Contact
 Email contact@publicradio.info and your message will be answered by a contributing editor or programmer.
 
 # Content
 Content is sourced from **dotinfo/_cYYYYMM/** and **dotinfo/_data/** folders.
 
-Monthly podcast items (`Main Program`, `Selected Audio`, `Playlist`) come from Markdown files located in the **_cYYYYDD** folder. They adhere to this syntax:
+Monthly podcast items (`Main Program`, `Selected Audio`, `Playlist`) come from Markdown files located in the **_cYYYYMM** folder. They adhere to this syntax:
 
 ```Markdown
 ---
@@ -82,6 +65,6 @@ News items (`News & Analysis`) are served by a separate aggregating service. The
 ```
 
 # License
-Software issued under the MIT License. Graphics, design, intellectual property, etc. issued under Creative Commons (CC BY-SA 4.0). No copyright claimed for selected and automated audio, which should be assumed to fall under audio creators.
+Software issued under the MIT License. Graphics issued under Creative Commons (CC BY-SA 4.0). No copyright claimed for selected and automated audio, which should be assumed to fall under audio creators.
 
 :radio:
