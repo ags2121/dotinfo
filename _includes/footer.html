@@ -17,6 +17,9 @@
 
     $('.listen').on('click', playAudioHandler);
     window.addEventListener('keydown', onKeyDown, false);
+    $('a').on('click', function (e) {
+      $(e.target).addClass('cbutton--click');
+    });
 
     function playAudioHandler (e) {
       e.preventDefault();
