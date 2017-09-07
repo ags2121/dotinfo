@@ -1,6 +1,7 @@
 // GLOBAL VARS
 var 
   servicesURL = 'http://www.publicradioservices.info',
+  servicesURL2 = 'http://publicradioservices-env-1.izkeaq2ewn.us-east-1.elasticbeanstalk.com',
   // servicesURL = 'http://localhost:3000',
   audioPlayer = $('audio')[0],
   audioSource = $('audio').find('source');
@@ -24,7 +25,7 @@ function getBBCHeadlinesLastUpdate () {
 }
 
 $.ajax({
-  url: servicesURL + '/newscasts',
+  url: servicesURL2 + '/newscasts',
   type: 'GET',
   dataType: 'JSON',
   success: function (data) {
@@ -125,7 +126,7 @@ function addPodcastHtmlToNode(node, data) {
 
 _this = this;
 $.ajax({
-  url: servicesURL + '/podcasts',
+  url: servicesURL2 + '/podcasts',
   type: 'GET',
   dataType: 'JSON',
   success: function (data) {
